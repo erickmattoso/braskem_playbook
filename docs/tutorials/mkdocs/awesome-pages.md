@@ -16,7 +16,8 @@ and order on a directory level.
 
   [1]: https://github.com/lukasgeiter/mkdocs-awesome-pages-plugin/
   [2]: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  [3]: ../getting-started.md#with-docker-recommended
+  [3]: /getting-started.md#with-docker-recommended
+
 
 ## Installation
 

@@ -15,7 +15,7 @@ Markdown file was last updated at the bottom of each page.
 
   [1]: https://github.com/timvink/mkdocs-git-revision-date-localized-plugin
   [2]: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  [3]: ../getting-started.md#with-docker-recommended
+  [3]: /getting-started.md#with-docker-recommended
 
 !!! warning "Requirements"
 

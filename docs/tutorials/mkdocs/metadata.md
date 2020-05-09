@@ -132,4 +132,4 @@ Disqus can also be disabled for a specific page by setting it to an empty value:
 disqus:
 ```
 
-  [3]: ../getting-started.md#disqus
+  [3]: /getting-started.md#disqus

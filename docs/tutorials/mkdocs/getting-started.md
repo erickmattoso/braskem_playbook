@@ -538,7 +538,7 @@ Markdown][19]!__
   [16]: https://materialdesignicons.com/
   [17]: https://fontawesome.com/icons?d=gallery&m=free
   [18]: https://octicons.github.com/
-  [19]: extensions/pymdown.md#icons
+  [19]: /pymdown.md#icons
 
 ### Logo
 
@@ -679,7 +679,7 @@ necessary JavaScript is automatically included.
 Disqus can also be enabled or disabled for specific pages using [Metadata][24].
 
   [23]: https://disqus.com
-  [24]: extensions/metadata.md#disqus
+  [24]: /metadata.md#disqus
 
 ## Extensions
 
@@ -706,12 +706,12 @@ some more information on configuration and usage:
 * [Permalinks][29]
 * [PyMdown Extensions][30]
 
-  [25]: extensions/admonition.md
-  [26]: extensions/codehilite.md
-  [27]: extensions/footnotes.md
-  [28]: extensions/metadata.md
-  [29]: extensions/permalinks.md
-  [30]: extensions/pymdown.md
+  [25]: /admonition.md
+  [26]: /codehilite.md
+  [27]: /footnotes.md
+  [28]: /metadata.md
+  [29]: /permalinks.md
+  [30]: /pymdown.md
 
 ## Plugins
 
@@ -728,8 +728,8 @@ including more information regarding installation and usage:
 For further reference, the MkDocs wiki contains a list of all
 [available plugins][35].
 
-  [31]: plugins/search.md
-  [32]: plugins/minification.md
-  [33]: plugins/revision-date.md
-  [34]: plugins/awesome-pages.md
+  [31]: /search.md
+  [32]: /minification.md
+  [33]: /revision-date.md
+  [34]: /awesome-pages.md
   [35]: https://github.com/mkdocs/mkdocs/wiki/MkDocs-Plugins

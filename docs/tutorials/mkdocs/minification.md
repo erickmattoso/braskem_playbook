@@ -16,7 +16,7 @@ to reduce the payload served to the client.
 
   [1]: https://github.com/byrnereese/mkdocs-minify-plugin
   [2]: https://hub.docker.com/r/squidfunk/mkdocs-material/
-  [3]: ../getting-started.md#with-docker-recommended
+  [3]: /getting-started.md#with-docker-recommended
 
 ## Installation
 

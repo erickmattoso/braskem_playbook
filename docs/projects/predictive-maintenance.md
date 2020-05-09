@@ -1,7 +1,7 @@
 ---
 template: overrides/main.html
 ---
-# Softwares
+# Predictive Maintenance
 
 Ad laborum mollit aute laborum in quis est esse laboris qui est aliqua mollit. Reprehenderit aute pariatur elit nulla Lorem voluptate veniam officia adipisicing. Amet pariatur eiusmod ea ex fugiat exercitation velit consectetur cillum nostrud aliquip elit culpa. Elit labore in quis fugiat reprehenderit. Voluptate anim nostrud ipsum sint mollit quis eiusmod exercitation sit.
 

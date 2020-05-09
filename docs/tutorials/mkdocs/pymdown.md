@@ -94,7 +94,7 @@ extra_javascript:
   [2]: https://facelessuser.github.io/pymdown-extensions/extensions/arithmatex/
   [3]: https://www.mathjax.org/
   [4]: https://math.meta.stackexchange.com/questions/5020/mathjax-basic-tutorial-and-quick-reference
-  [5]: ../customization.md#additional-javascript
+  [5]: /customization.md#additional-javascript
 
 #### Blocks
 
@@ -233,7 +233,9 @@ Example:
 
 Result:
 
+
 * :material-account-circle: – we can use [Material Design icons][20]
+* :fontawesome-regular-play-circle:
 * :fontawesome-regular-laugh-wink: – we can also use [FontAwesome icons][21]
 * :octicons-octoface: – that's not all, we can also use [GitHub's Octicons][22]
 
