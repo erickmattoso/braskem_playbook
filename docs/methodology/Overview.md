@@ -1,8 +1,8 @@
-**Data Science Process Lifecycle** 
-Is an iterative agile methodology, the main goal is to deliver predictive analytics and intelligent applications efficiently.
-Helps improve team collaboration and it's good to understand how team works best together.
+**Digital Factory Process Lifecycle** 
 
-This Document has the goal to create a solid **Data Science Licycle definition**, with a **Standardized Project Structure**, well defined **Infraestructure and Resources** for DS projects and **Tools and Utilities** to manage the project execution.
+Is an iterative agile methodology, the main goal is to deliver predictive analytics and intelligent applications efficiently. Helps improve team collaboration and it's good to understand how team works best together.
+
+This Document has the goal to create a solid **Digital Factory Licycle definition**, with a **Standardized Project Structure**, well defined **Infraestructure and Resources** for DS projects and **Tools and Utilities** to manage the project execution.
 
 In this **Lifecyle** we have **four phases**:
 - **Business Understanding**

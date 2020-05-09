@@ -37,3 +37,19 @@ What is the profile of the data that we have available?
 - If necessary, can I change the data collection frequency so I can capture the event? 
 - Do I store this data in my databases, or where do I store the data?
 
+
+
+
+As a Data Scientist and Data Engineer
+I want to know if the avaliable Data can be used for the expected solution.
+In order to prevent unviable projects
+Is this project feasible to the Data Science approach? (see Data Journey)
+Produce a feasibility report that answer the following questions below:
+How is the Data Sctructure?
+What are the Data Sources?
+Data Sparciality (Missing, noisy, etc.)
+Do we have enought data? (Obs: Enought data points and variables?)
+Does the factory have the manpower to deliver this project?
+Do we need hire or contract third parties?
+How much will be the development expenses with this project?
+If its feasible to build this product?
