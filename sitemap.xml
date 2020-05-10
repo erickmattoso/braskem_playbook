@@ -1,115 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/intro/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://erickmattoso.github.io/braskem_playbook/courses/books/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://erickmattoso.github.io/braskem_playbook/courses/data-journey/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://erickmattoso.github.io/braskem_playbook/glossary/equations/</loc>
+     <lastmod>2020-05-10</lastmod>
+     <changefreq>daily</changefreq>
+    </url><url>
+     <loc>https://erickmattoso.github.io/braskem_playbook/glossary/glossary/</loc>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/projects/demand-forcasting/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/projects/mro/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/projects/predictive-maintenance/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/projects/quality-control/</loc>
-     <lastmod>2020-05-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://erickmattoso.github.io/braskem_playbook/trainnings/data-journey/</loc>
-     <lastmod>2020-05-09</lastmod>
-     <changefreq>daily</changefreq>
-    </url><url>
-     <loc>https://erickmattoso.github.io/braskem_playbook/trainnings/intro/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/tutorial/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/4/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/5/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/admonition/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/awesome-pages/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/changelog/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/codehilite/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/contributing/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/customization/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/data-privacy/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/footnotes/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/getting-started/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/install_mkdocs/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/license/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/metadata/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/minification/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/permalinks/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/pymdown/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/revision-date/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url><url>
      <loc>https://erickmattoso.github.io/braskem_playbook/tutorials/mkdocs/search/</loc>
-     <lastmod>2020-05-09</lastmod>
+     <lastmod>2020-05-10</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
