@@ -15,10 +15,10 @@ template: overrides/main.html
 [http://www1.maths.leeds.ac.uk/~charles/statlog/](http://www1.maths.leeds.ac.uk/~charles/statlog/)
 
 - Authors: D. Michie, D.J. Spiegelhalter, C.C. Taylor (eds)  
-- Year: 1994  
+- Year: 1994
 - Pages: 290 pages  
 
-From the Back Cover:
+Book Description:
 
 This book is based on the EC (ESPRIT) project StatLog which compare and evaluated a range of classification techniques, with an assessment of their merits, disadvantages and range of application. This integrated volume provides a concise introduction to each method, and reviews comparative trials in large-scale commercial and industrial problems. It makes accessible to a wide range of workers the complex issue of classification as approached through machine learning, statistics and neural networks, encouraging a cross-fertilization between these disciplines.
 
@@ -30,10 +30,10 @@ This book is based on the EC (ESPRIT) project StatLog which compare and evaluate
 [http://www-ai.ijs.si/SasoDzeroski/ILPBook/](http://www-ai.ijs.si/SasoDzeroski/ILPBook//)
 
 - Authors: Nada Lavrac and Saso Dzeroski  
-- Year: 1994   
-- Pages: 400 pages  
+- Year: 1994
+- Pages: 400 pages
 
-From the Back Cover:
+Book Description:
 
 This book is an introduction to inductive logic programming (ILP), a research field at the intersection of machine learning and logic programming, which aims at a formal framework as well as practical algorithms for inductively learning relational descriptions in the form of logic programs. The book extensively covers empirical inductive logic programming, one of the two major subfields of ILP, which has already shown its application potential in the following areas: knowledge acquisition, inductive program synthesis, inductive data engineering, and knowledge discovery in databases.
 
@@ -49,7 +49,7 @@ The book provides the reader with an in-depth understanding of empirical ILP tec
 - Year: 2008  
 - Pages: 210 pages
 
-Author Preface:
+Book Description:
 
 I wrote this book for both professional programmers and home hobbyists who al- ready know how to program in Java and who want to learn practical Artificial In- telligence (AI) programming and information processing techniques. I have tried to make this an enjoyable book to work through. In the style of a “cook book,” the chapters can be studied in any order. Each chapter follows the same pattern: a mo- tivation for learning a technique, some theory for the technique, and a Java example program that you can experiment with.
 
@@ -63,8 +63,7 @@ I wrote this book for both professional programmers and home hobbyists who al- r
 - Year: 2003  
 - Pages: 628 pages
 
-Author Preface:
-
+Book Description:
 
 This book is aimed at senior undergraduates and graduate students in Engi- neering, Science, Mathematics, and Computing. It expects familiarity with calculus, probability theory, and linear algebra as taught in a first- or second- year undergraduate course on mathematics for scientists and engineers.
 Conventional courses on information theory cover not only the beauti- ful theoretical ideas of Shannon, but also practical solutions to communica- tion problems. This book goes further, bringing in Bayesian data modelling, Monte Carlo methods, variational methods, clustering algorithms, and neural networks.
@@ -133,7 +132,7 @@ Bayesian Decision Theory, Maximum Likelihood/ Maximum Entropy Duality, EM Algori
 
 Book Description:
 
-During the past decade has been an explosion in computation and information technology. With it has come vast amounts of data in a variety of fields such as medicine, biology, finance, and marketing. The challenge of understanding these data has led to the development of new tools in the field of statistics, and spawned new areas such as data mining, machine learning, and bioinformatics. Many of these tools have common underpinnings but are often expressed with different terminology. This book descibes the important ideas in these areas in a common conceptual framework. While the approach is statistical, the emphasis is on concepts rather than mathematics. Many examples are given, with a liberal use of color graphics. It should be a valuable resource for statisticians and anyone interested in data mining in science or industry. The book's coverage is broad, from supervised learning (prediction) to unsupervised learning. The many topics include neural networks, support vector machines, classification trees and boosting--the first comprehensive treatment of this topic in any book. 
+During the past decade has been an explosion in computation and information technology. With it has come vast amounts of data in a variety of fields such as medicine, biology, finance, and marketing. The challenge of understanding these data has led to the development of new tools in the field of statistics, and spawned new areas such as data mining, machine learning, and bioinformatics. Many of these tools have common underpinnings but are often expressed with different terminology. This book descibes the important ideas in these areas in a common conceptual framework. While the approach is statistical, the emphasis is on concepts rather than mathematics. Many examples are given, with a liberal use of color graphics. It should be a valuable resource for statisticians and anyone interested in data mining in science or industry. The book's coverage is broad, from supervised learning (prediction) to unsupervised learning. The many topics include neural networks, support vector machines, classification trees and boosting--the first comprehensive treatment of this topic in any book.
 
 This major new edition features many topics not covered in the original, including graphical models, random forests, ensemble methods, least angle regression & path algorithms for the lasso, non-negative matrix factorization and spectral clustering. There is also a chapter on methods for ``wide'' data (italics p bigger than n), including multiple testing and false discovery rates. 
 
