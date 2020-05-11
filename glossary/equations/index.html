@@ -26,23 +26,23 @@ p_k = {n \choose x} \cdot p^k \cdot (1-p)^{n-k}
     \end{matrix}
     \right)}
     = \frac{2S}{n(n-1)}
-</script> </div> <div class=highlight><pre><span></span><code>    \tau = \frac{c-d}{c+d} = \frac{S}{
-        \left(
-        \begin{matrix} 
-        n \\
-        2
-    \end{matrix}
-    \right)}
-    = \frac{2S}{n(n-1)}
+</script> </div> <div class=highlight><pre><span></span><code>\tau = \frac{c-d}{c+d} = \frac{S}{
+\left(
+\begin{matrix} 
+n \\
+2
+\end{matrix}
+\right)}
+= \frac{2S}{n(n-1)}
 </code></pre></div> <p>where:</p> <p><em>c</em> = the number of concordant pairs <br> <em>d</em> = the number of discordant pairs </p> <p>[<a href=http://www.encyclopediaofmath.org/index.php/Kendall_tau_metric>Source</a>]</p> <p>If ties are present among the 2 ranked variables, the following equation shall be used instead:</p> <div> <div class=MathJax_Preview> \tau = \frac{S}{\sqrt{n(n-1)/2-T}\sqrt{n(n-1)/2-U}} </div> <script type="math/tex; mode=display">
 \tau = \frac{S}{\sqrt{n(n-1)/2-T}\sqrt{n(n-1)/2-U}}
 </script> </div> <div class=highlight><pre><span></span><code>\tau = \frac{S}{\sqrt{n(n-1)/2-T}\sqrt{n(n-1)/2-U}}
 </code></pre></div> <div> <div class=MathJax_Preview> T = \sum_t t(t-1)/2 \\ </div> <script type="math/tex; mode=display">
     T = \sum_t t(t-1)/2 \\
-</script> </div> <div class=highlight><pre><span></span><code>    T = \sum_t t(t-1)/2 \\
+</script> </div> <div class=highlight><pre><span></span><code>T = \sum_t t(t-1)/2 \\
 </code></pre></div> <div> <div class=MathJax_Preview> U = \sum_u u(u-1)/2 \\ </div> <script type="math/tex; mode=display">
     U = \sum_u u(u-1)/2 \\
-</script> </div> <div class=highlight><pre><span></span><code>    U = \sum_u u(u-1)/2 \\
+</script> </div> <div class=highlight><pre><span></span><code>U = \sum_u u(u-1)/2 \\
 </code></pre></div> <p>where:</p> <p><em>t</em> = number of observations of variable <em>x</em> that are tied<br> <em>u</em> = number of observations of variable <em>y</em> that are tied </p> <hr> <h3 id=correlation-pearson>Correlation - Pearson<a class=headerlink href=#correlation-pearson title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The Pearson correlation coefficient is probably the most widely used measure for linear relationships between two normal distributed variables and thus often just called "correlation coefficient". Usually, the Pearson coefficient is obtained via a <a href=#least-squares-fit-regression>Least-Squares fit</a> and a value of 1 represents a perfect positive relation-ship, -1 a perfect negative relationship, and 0 indicates the absence of a relationship between variables.</p> <div> <div class=MathJax_Preview> \rho = \frac{\text{cov}(X,Y)}{\sigma_x \sigma_y} </div> <script type="math/tex; mode=display">
     \rho = \frac{\text{cov}(X,Y)}{\sigma_x \sigma_y}
 </script> </div> <div class=highlight><pre><span></span><code>\rho = \frac{\text{cov}(X,Y)}{\sigma_x \sigma_y}
@@ -56,54 +56,54 @@ p_k = {n \choose x} \cdot p^k \cdot (1-p)^{n-k}
 </script> </div> <div class=highlight><pre><span></span><code>\rho = 1- {\frac {6 \sum d_i^2}{n(n^2 - 1)}}
 </code></pre></div> <p>where: <em>d</em> = the pairwise distances of the ranks of the variables <em>x<sub>i</sub></em> and <em>y<sub>i</sub></em> .<br> <em>n</em> = the number of samples.</p> <hr> <h3 id=cosine-similarity>Cosine Similarity<a class=headerlink href=#cosine-similarity title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>Cosine similarity measures the orientation of two <em>n</em>-dimensional sample vectors irrespective to their magnitude. It is calculated by the dot product of two numeric vectors, and it is normalized by the product of the vector lengths, so that output values close to 1 indicate high similarity. </p> <div> <div class=MathJax_Preview> cos(\pmb x, \pmb y) = \frac {\pmb x \cdot \pmb y}{||\pmb x|| \cdot ||\pmb y||} </div> <script type="math/tex; mode=display">
     cos(\pmb x, \pmb y) = \frac {\pmb x \cdot \pmb y}{||\pmb x|| \cdot ||\pmb y||}
-</script> </div> <div class=highlight><pre><span></span><code>    cos(\pmb x, \pmb y) = \frac {\pmb x \cdot \pmb y}{||\pmb x|| \cdot ||\pmb y||}
+</script> </div> <div class=highlight><pre><span></span><code>cos(\pmb x, \pmb y) = \frac {\pmb x \cdot \pmb y}{||\pmb x|| \cdot ||\pmb y||}
 </code></pre></div> <hr> <h3 id=co-variance>Co-Variance<a class=headerlink href=#co-variance title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y}) </div> <script type="math/tex; mode=display">
     S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
-</script> </div> <div class=highlight><pre><span></span><code>    S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
+</script> </div> <div class=highlight><pre><span></span><code>S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})
 </code></pre></div> <p>example covariance matrix:</p> <div> <div class=MathJax_Preview> \pmb{\Sigma_1} = \begin{bmatrix}1 &amp; 0 &amp; 0 \\ 0 &amp; 1\ &amp;0\\ 0 &amp; 0 &amp; 1 \end{bmatrix} </div> <script type="math/tex; mode=display">
     \pmb{\Sigma_1} = 
     \begin{bmatrix}1 & 0 & 0 \\
     0 & 1\ &0\\
     0 & 0 & 1
     \end{bmatrix}
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb{\Sigma_1} = 
-    \begin{bmatrix}1 &amp; 0 &amp; 0 \\
-    0 &amp; 1\ &amp;0\\
-    0 &amp; 0 &amp; 1
-    \end{bmatrix}
+</script> </div> <div class=highlight><pre><span></span><code>\pmb{\Sigma_1} = 
+\begin{bmatrix}1 &amp; 0 &amp; 0 \\
+0 &amp; 1\ &amp;0\\
+0 &amp; 0 &amp; 1
+\end{bmatrix}
 </code></pre></div> <hr> <h3 id=eigenvector-and-eigenvalue>Eigenvector and Eigenvalue<a class=headerlink href=#eigenvector-and-eigenvalue title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> \pmb A\pmb{v} = \lambda\pmb{v}\\ </div> <script type="math/tex; mode=display">
     \pmb A\pmb{v} =  \lambda\pmb{v}\\
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb A\pmb{v} =  \lambda\pmb{v}\\
+</script> </div> <div class=highlight><pre><span></span><code>\pmb A\pmb{v} =  \lambda\pmb{v}\\
 </code></pre></div> <p>where:</p> <div> <div class=MathJax_Preview> \pmb A = S_{W}^{-1}S_B\\ \pmb{v} = \text{Eigenvector}\\ \lambda = \text{Eigenvalue} </div> <script type="math/tex; mode=display">
     \pmb A = S_{W}^{-1}S_B\\
     \pmb{v} = \text{Eigenvector}\\
     \lambda = \text{Eigenvalue}
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb A = S_{W}^{-1}S_B\\
-    \pmb{v} = \text{Eigenvector}\\
-    \lambda = \text{Eigenvalue}
+</script> </div> <div class=highlight><pre><span></span><code>\pmb A = S_{W}^{-1}S_B\\
+\pmb{v} = \text{Eigenvector}\\
+\lambda = \text{Eigenvalue}
 </code></pre></div> <hr> <h3 id=distance-euclidean>Distance, Euclidean<a class=headerlink href=#distance-euclidean title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The Euclidean distance is a distance measure between two points or or vectors in a two- or multidimensional (Euclidean) space based on Pythagoras' theorem. The distance is calculated by taking the square root of the sum of the squared pair-wise distances of every dimension. </p> <div> <div class=MathJax_Preview> \sqrt{\sum_{i=1}^n (x_i-y_i)^2} </div> <script type="math/tex; mode=display">
     \sqrt{\sum_{i=1}^n (x_i-y_i)^2}
-</script> </div> <div class=highlight><pre><span></span><code>    \sqrt{\sum_{i=1}^n (x_i-y_i)^2}
+</script> </div> <div class=highlight><pre><span></span><code>\sqrt{\sum_{i=1}^n (x_i-y_i)^2}
 </code></pre></div> <hr> <h3 id=distance-manhattan>Distance, Manhattan<a class=headerlink href=#distance-manhattan title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The Manhattan distance (sometimes also called Taxicab distance) metric is related to the Euclidean distance, but instead of calculating the shortest diagonal path ("beeline") between two points, it calculates the distance based on gridlines. The Manhattan distance was named after the block-like layout of the streets in Manhattan. </p> <div> <div class=MathJax_Preview> \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p} </div> <script type="math/tex; mode=display">
     \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
-</script> </div> <div class=highlight><pre><span></span><code>    \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
+</script> </div> <div class=highlight><pre><span></span><code>\left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
 </code></pre></div> <hr> <h3 id=distance-minkowski>Distance, Minkowski<a class=headerlink href=#distance-minkowski title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The Minkowski distance is a generalized form of the Euclidean distance (if <em>p=2</em>) and the Manhattan distance (if <em>p=1</em>). </p> <div> <div class=MathJax_Preview> \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p} </div> <script type="math/tex; mode=display">
     \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
-</script> </div> <div class=highlight><pre><span></span><code>    \left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
+</script> </div> <div class=highlight><pre><span></span><code>\left(\sum_{i=1}^n |x_i-y_i|^p\right)^{1/p}
 </code></pre></div> <hr> <h3 id=least-squares-fit-regression>Least-squares fit regression<a class=headerlink href=#least-squares-fit-regression title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>Linear equation</li> </ul> <div> <div class=MathJax_Preview> f(x) = a\cdot x + b </div> <script type="math/tex; mode=display">
     f(x) = a\cdot x + b
-</script> </div> <div class=highlight><pre><span></span><code>    f(x) = a\cdot x + b
+</script> </div> <div class=highlight><pre><span></span><code>f(x) = a\cdot x + b
 </code></pre></div> <ul> <li>Slope:</li> </ul> <div> <div class=MathJax_Preview> a = \frac{S_{x,y}}{\sigma_{x}^{2}}\quad </div> <script type="math/tex; mode=display">
     a = \frac{S_{x,y}}{\sigma_{x}^{2}}\quad
-</script> </div> <div class=highlight><pre><span></span><code>    a = \frac{S_{x,y}}{\sigma_{x}^{2}}\quad
+</script> </div> <div class=highlight><pre><span></span><code>a = \frac{S_{x,y}}{\sigma_{x}^{2}}\quad
 </code></pre></div> <ul> <li>Y-axis intercept:</li> </ul> <div> <div class=MathJax_Preview> b = \bar{y} - a\bar{x}\quad </div> <script type="math/tex; mode=display">
     b = \bar{y} - a\bar{x}\quad
-</script> </div> <div class=highlight><pre><span></span><code>    b = \bar{y} - a\bar{x}\quad
+</script> </div> <div class=highlight><pre><span></span><code>b = \bar{y} - a\bar{x}\quad
 </code></pre></div> <p>where:</p> <div> <div class=MathJax_Preview> S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})\quad \text{(covariance)} \\ \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad \text{(variance)} </div> <script type="math/tex; mode=display">
     S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})\quad \text{(covariance)} \\
     \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad \text{(variance)}    
-</script> </div> <div class=highlight><pre><span></span><code>    S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})\quad \text{(covariance)} \\
-    \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad \text{(variance)}
+</script> </div> <div class=highlight><pre><span></span><code>S_{xy} = \sum_{i=1}^{n} (x_i - \bar{x})(y_i - \bar{y})\quad \text{(covariance)} \\
+\sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad \text{(variance)}
 </code></pre></div> <ul> <li>Matrix equation</li> </ul> <div> <div class=MathJax_Preview> \pmb X \ . \pmb a = \pmb y </div> <script type="math/tex; mode=display">
 \pmb X \ . \pmb a = \pmb y
 </script> </div> <div class=highlight><pre><span></span><code>\pmb X \ . \pmb a = \pmb y
@@ -119,47 +119,47 @@ p_k = {n \choose x} \cdot p^k \cdot (1-p)^{n-k}
     y_1   \\
     ...  \\
     y_n  \end{array} \Bigg]
-</script> </div> <div class=highlight><pre><span></span><code>    \Bigg[ \begin{array}{cc}
-    x_1 &amp; 1  \\
-    ... &amp; 1 \\
-    x_n &amp; 1  \end{array} \Bigg]
-    \bigg[ \begin{array}{c}
-    a  \\
-    b \end{array} \bigg]
-    =\Bigg[ \begin{array}{c}
-    y_1   \\
-    ...  \\
-    y_n  \end{array} \Bigg]
+</script> </div> <div class=highlight><pre><span></span><code>\Bigg[ \begin{array}{cc}
+x_1 &amp; 1  \\
+... &amp; 1 \\
+x_n &amp; 1  \end{array} \Bigg]
+\bigg[ \begin{array}{c}
+a  \\
+b \end{array} \bigg]
+=\Bigg[ \begin{array}{c}
+y_1   \\
+...  \\
+y_n  \end{array} \Bigg]
 </code></pre></div> <div> <div class=MathJax_Preview> \pmb a = (\pmb X^T \; \pmb X)^{-1} \pmb X^T \; \pmb y </div> <script type="math/tex; mode=display">
     \pmb a = (\pmb X^T \; \pmb X)^{-1} \pmb X^T \; \pmb y
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb a = (\pmb X^T \; \pmb X)^{-1} \pmb X^T \; \pmb y
+</script> </div> <div class=highlight><pre><span></span><code>\pmb a = (\pmb X^T \; \pmb X)^{-1} \pmb X^T \; \pmb y
 </code></pre></div> <hr> <h3 id=lennard-jones-potential>Lennard-Jones Potential<a class=headerlink href=#lennard-jones-potential title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The Lennard-Jones potential describes the energy potential between two non-bonded atoms based on their distance to each other.</p> <div> <div class=MathJax_Preview> V = 4 \epsilon \bigg[ \bigg(\frac{\sigma}{r}\bigg)^{12} - \bigg(\frac{\sigma}{r}\bigg)^{6} \bigg] </div> <script type="math/tex; mode=display">
     V = 4 \epsilon \bigg[ \bigg(\frac{\sigma}{r}\bigg)^{12}  - \bigg(\frac{\sigma}{r}\bigg)^{6} \bigg]
-</script> </div> <div class=highlight><pre><span></span><code>    V = 4 \epsilon \bigg[ \bigg(\frac{\sigma}{r}\bigg)^{12}  - \bigg(\frac{\sigma}{r}\bigg)^{6} \bigg]
+</script> </div> <div class=highlight><pre><span></span><code>V = 4 \epsilon \bigg[ \bigg(\frac{\sigma}{r}\bigg)^{12}  - \bigg(\frac{\sigma}{r}\bigg)^{6} \bigg]
 </code></pre></div> <p>V = intermolecular potential<br> &sigma; = distance where V is 0<br> r = distance between atoms, measured from one center to the other<br> &epsilon; = interaction strength</p> <hr> <h3 id=linear-discriminant-analysis>Linear Discriminant Analysis<a class=headerlink href=#linear-discriminant-analysis title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>In-between class scatter matrix</li> </ul> <div> <div class=MathJax_Preview> S_W = \sum\limits_{i=1}^{c} S_i </div> <script type="math/tex; mode=display">
     S_W = \sum\limits_{i=1}^{c} S_i
-</script> </div> <div class=highlight><pre><span></span><code>    S_W = \sum\limits_{i=1}^{c} S_i
+</script> </div> <div class=highlight><pre><span></span><code>S_W = \sum\limits_{i=1}^{c} S_i
 </code></pre></div> <p>Where:</p> <div> <div class=MathJax_Preview> S_i = \sum\limits_{\pmb x \in D_i}^n (\pmb x - \pmb m_i)\;(\pmb x - \pmb m_i)^T \text{ (scatter matrix for every class)} \\\\ </div> <script type="math/tex; mode=display">
     S_i = \sum\limits_{\pmb x \in D_i}^n (\pmb x - \pmb m_i)\;(\pmb x - \pmb m_i)^T
      \text{  (scatter matrix for every class)} \\\\
-</script> </div> <div class=highlight><pre><span></span><code>    S_i = \sum\limits_{\pmb x \in D_i}^n (\pmb x - \pmb m_i)\;(\pmb x - \pmb m_i)^T
-     \text{  (scatter matrix for every class)} \\\\
+</script> </div> <div class=highlight><pre><span></span><code>S_i = \sum\limits_{\pmb x \in D_i}^n (\pmb x - \pmb m_i)\;(\pmb x - \pmb m_i)^T
+\text{  (scatter matrix for every class)} \\\\
 </code></pre></div> <p>and</p> <div> <div class=MathJax_Preview> \pmb m_i = \frac{1}{n_i} \sum\limits_{\pmb x \in D_i}^n \; \pmb x_k \text{ (mean vector)} </div> <script type="math/tex; mode=display">
     \pmb m_i = \frac{1}{n_i} \sum\limits_{\pmb x \in D_i}^n \; \pmb x_k   \text{ (mean vector)}
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb m_i = \frac{1}{n_i} \sum\limits_{\pmb x \in D_i}^n \; \pmb x_k   \text{ (mean vector)}
+</script> </div> <div class=highlight><pre><span></span><code>\pmb m_i = \frac{1}{n_i} \sum\limits_{\pmb x \in D_i}^n \; \pmb x_k   \text{ (mean vector)}
 </code></pre></div> <hr> <ul> <li>Between class scatter matrix</li> </ul> <div> <div class=MathJax_Preview> S_B = \sum\limits_{i=1}^{c} (\pmb m_i - \pmb m) (\pmb m_i - \pmb m)^T </div> <script type="math/tex; mode=display">
     S_B = \sum\limits_{i=1}^{c} (\pmb m_i - \pmb m) (\pmb m_i - \pmb m)^T
-</script> </div> <div class=highlight><pre><span></span><code>    S_B = \sum\limits_{i=1}^{c} (\pmb m_i - \pmb m) (\pmb m_i - \pmb m)^T
+</script> </div> <div class=highlight><pre><span></span><code>S_B = \sum\limits_{i=1}^{c} (\pmb m_i - \pmb m) (\pmb m_i - \pmb m)^T
 </code></pre></div> <hr> <h3 id=maximum-likelihood-estimate>Maximum Likelihood Estimate<a class=headerlink href=#maximum-likelihood-estimate title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The probability of observing the data set </p> <div> <div class=MathJax_Preview> D = \left\{ \pmb x_1, \pmb x_2,..., \pmb x_n \right\} </div> <script type="math/tex; mode=display">
     D = \left\{ \pmb x_1, \pmb x_2,..., \pmb x_n \right\} 
-</script> </div> <div class=highlight><pre><span></span><code>    D = \left\{ \pmb x_1, \pmb x_2,..., \pmb x_n \right\} 
+</script> </div> <div class=highlight><pre><span></span><code>D = \left\{ \pmb x_1, \pmb x_2,..., \pmb x_n \right\} 
 </code></pre></div> <p>can be pictured as probability to observe a particular sequence of patterns,<br> where the probability of observing a particular patterns depends on <strong>&theta;</strong>, the parameters the underlying (class-conditional) distribution. In order to apply MLE, we have to make the assumption that the samples are <em>i.i.d.</em> (independent and identically distributed).</p> <div> <div class=MathJax_Preview> p(D\; | \; \pmb \theta\;) = p(\pmb x_1 \; | \; \pmb \theta\;)\; \cdot \; p(\pmb x_2 \; | \;\pmb \theta\;) \; \cdot \;... \; p(\pmb x_n \; | \; \pmb \theta\;) = \prod_{k=1}^{n} \; p(\pmb x_k \pmb \; | \; \pmb \theta \;) </div> <script type="math/tex; mode=display">
     p(D\; | \;  \pmb \theta\;)
     = p(\pmb x_1 \; | \; \pmb \theta\;)\; \cdot \; p(\pmb x_2 \; | \;\pmb \theta\;) \; \cdot \;...  \; p(\pmb x_n \; | \; \pmb \theta\;)
     = \prod_{k=1}^{n} \; p(\pmb x_k \pmb \; | \; \pmb \theta \;)
-</script> </div> <div class=highlight><pre><span></span><code>    p(D\; | \;  \pmb \theta\;)
-    = p(\pmb x_1 \; | \; \pmb \theta\;)\; \cdot \; p(\pmb x_2 \; | \;\pmb \theta\;) \; \cdot \;...  \; p(\pmb x_n \; | \; \pmb \theta\;)
-    = \prod_{k=1}^{n} \; p(\pmb x_k \pmb \; | \; \pmb \theta \;)
+</script> </div> <div class=highlight><pre><span></span><code>p(D\; | \;  \pmb \theta\;)
+= p(\pmb x_1 \; | \; \pmb \theta\;)\; \cdot \; p(\pmb x_2 \; | \;\pmb \theta\;) \; \cdot \;...  \; p(\pmb x_n \; | \; \pmb \theta\;)
+= \prod_{k=1}^{n} \; p(\pmb x_k \pmb \; | \; \pmb \theta \;)
 </code></pre></div> <p>Where <strong>&theta;</strong> is the parameter vector, that contains the parameters for a particular distribution that we want to estimate.</p> <p>and p(D | <strong>&theta;</strong>) is also called the likelihood of <strong>&theta;</strong>.</p> <ul> <li>log-likelihood</li> </ul> <div> <div class=MathJax_Preview> p(D|\theta) = \prod_{k=1}^{n} p(x_k|\theta) \\ \Rightarrow l(\theta) = \sum_{k=1}^{n} ln \; p(x_k|\theta) </div> <script type="math/tex; mode=display">
 p(D|\theta) = \prod_{k=1}^{n} p(x_k|\theta) \\
 \Rightarrow l(\theta) = \sum_{k=1}^{n} ln \; p(x_k|\theta)
@@ -171,32 +171,32 @@ p(D|\theta) = \prod_{k=1}^{n} p(x_k|\theta) \\
     \frac{\partial \; }{\partial \; \theta_2} \\
     ...\\
     \frac{\partial \; }{\partial \; \theta_p}\end{bmatrix}
-</script> </div> <div class=highlight><pre><span></span><code>    \nabla_{\pmb \theta} \equiv \begin{bmatrix}  
-    \frac{\partial \; }{\partial \; \theta_1} \\
-    \frac{\partial \; }{\partial \; \theta_2} \\
-    ...\\
-    \frac{\partial \; }{\partial \; \theta_p}\end{bmatrix}
-</code></pre></div> <div> <div class=MathJax_Preview> \nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix} \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_1} \\ \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_2} \\ ...\\ \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix}$ $= \begin{bmatrix} 0 \\ 0 \\ ...\\ 0\end{bmatrix} </div> <script type="math/tex; mode=display">
+</script> </div> <div class=highlight><pre><span></span><code>\nabla_{\pmb \theta} \equiv \begin{bmatrix}  
+\frac{\partial \; }{\partial \; \theta_1} \\
+\frac{\partial \; }{\partial \; \theta_2} \\
+...\\
+\frac{\partial \; }{\partial \; \theta_p}\end{bmatrix}
+</code></pre></div> <div> <div class=MathJax_Preview> \nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix} \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_1} \\ \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_2} \\ ...\\ \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix} = \begin{bmatrix} 0 \\ 0 \\ ...\\ 0\end{bmatrix} </div> <script type="math/tex; mode=display">
     \nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix}  
     \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_1} \\
     \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_2} \\
     ...\\
-    \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix}$
-    $= \begin{bmatrix}  
+    \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix}
+    = \begin{bmatrix}  
     0 \\
     0 \\
     ...\\
     0\end{bmatrix}
-</script> </div> <div class=highlight><pre><span></span><code>    \nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix}  
-    \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_1} \\
-    \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_2} \\
-    ...\\
-    \frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix}$
-    $= \begin{bmatrix}  
-    0 \\
-    0 \\
-    ...\\
-    0\end{bmatrix}
+</script> </div> <div class=highlight><pre><span></span><code>\nabla_{\pmb \theta} l(\pmb\theta) \equiv \begin{bmatrix}  
+\frac{\partial \; L(\pmb\theta)}{\partial \; \theta_1} \\
+\frac{\partial \; L(\pmb\theta)}{\partial \; \theta_2} \\
+...\\
+\frac{\partial \; L(\pmb\theta)}{\partial \; \theta_p}\end{bmatrix}
+= \begin{bmatrix}  
+0 \\
+0 \\
+...\\
+0\end{bmatrix}
 </code></pre></div> <ul> <li>parameter vector</li> </ul> <div> <div class=MathJax_Preview> \pmb \theta_i = \bigg[ \begin{array}{c} \ \theta_{i1} \\ \ \theta_{i2} \\ \end{array} \bigg]= \bigg[ \begin{array}{c} \pmb \mu_i \\ \pmb \Sigma_i \\ \end{array} \bigg] </div> <script type="math/tex; mode=display">
     \pmb \theta_i = \bigg[ \begin{array}{c}
     \ \theta_{i1} \\
@@ -206,17 +206,17 @@ p(D|\theta) = \prod_{k=1}^{n} p(x_k|\theta) \\
     \pmb \mu_i \\
     \pmb \Sigma_i \\
     \end{array} \bigg]
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb \theta_i = \bigg[ \begin{array}{c}
-    \ \theta_{i1} \\
-    \ \theta_{i2} \\
-    \end{array} \bigg]=
-    \bigg[ \begin{array}{c}
-    \pmb \mu_i \\
-    \pmb \Sigma_i \\
-    \end{array} \bigg]
+</script> </div> <div class=highlight><pre><span></span><code>\pmb \theta_i = \bigg[ \begin{array}{c}
+\ \theta_{i1} \\
+\ \theta_{i2} \\
+\end{array} \bigg]=
+\bigg[ \begin{array}{c}
+\pmb \mu_i \\
+\pmb \Sigma_i \\
+\end{array} \bigg]
 </code></pre></div> <hr> <h3 id=min-max-scaling>Min-Max scaling<a class=headerlink href=#min-max-scaling title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> X_{norm} = \frac{X - X_{min}}{X_{max}-X_{min}} </div> <script type="math/tex; mode=display">
     X_{norm} = \frac{X - X_{min}}{X_{max}-X_{min}}
-</script> </div> <div class=highlight><pre><span></span><code>    X_{norm} = \frac{X - X_{min}}{X_{max}-X_{min}}
+</script> </div> <div class=highlight><pre><span></span><code>X_{norm} = \frac{X - X_{min}}{X_{max}-X_{min}}
 </code></pre></div> <hr> <h3 id=normal-distribution-multivariate>Normal distribution (multivariate)<a class=headerlink href=#normal-distribution-multivariate title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>Probability density function</li> </ul> <div> <div class=MathJax_Preview> p(\pmb x) \sim N(\pmb \mu|\Sigma) </div> <script type="math/tex; mode=display">
 p(\pmb x) \sim N(\pmb \mu|\Sigma)
 </script> </div> <div class=highlight><pre><span></span><code>p(\pmb x) \sim N(\pmb \mu|\Sigma)
@@ -232,61 +232,61 @@ p(x) \sim \frac{1}{\sqrt{2\pi\sigma^2}} \exp{ \bigg[-\frac{1}{2}\bigg( \frac{x-\
 </code></pre></div> <hr> <h3 id=parzen-window-function>Parzen window function<a class=headerlink href=#parzen-window-function title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> \phi(\pmb u) = \Bigg[ \begin{array}{ll} 1 &amp; \quad |u_j| \leq 1/2 \; ;\quad \quad j = 1, ..., d \\ 0 &amp; \quad \text{otherwise} \end{array} </div> <script type="math/tex; mode=display">
     \phi(\pmb u) = \Bigg[ \begin{array}{ll} 1 & \quad |u_j| \leq 1/2 \; ;\quad \quad j = 1, ..., d \\
     0 & \quad \text{otherwise} \end{array} 
-</script> </div> <div class=highlight><pre><span></span><code>    \phi(\pmb u) = \Bigg[ \begin{array}{ll} 1 &amp; \quad |u_j| \leq 1/2 \; ;\quad \quad j = 1, ..., d \\
-    0 &amp; \quad \text{otherwise} \end{array} 
+</script> </div> <div class=highlight><pre><span></span><code>\phi(\pmb u) = \Bigg[ \begin{array}{ll} 1 &amp; \quad |u_j| \leq 1/2 \; ;\quad \quad j = 1, ..., d \\
+0 &amp; \quad \text{otherwise} \end{array} 
 </code></pre></div> <p>for a hypercube of unit length 1 centered at the coordinate system's origin. What this function basically does is assigning a value 1 to a sample point if it lies within &frac12; of the edges of the hypercube, and 0 if lies outside (note that the evaluation is done for all dimensions of the sample point).</p> <p>If we extend on this concept, we can define a more general equation that applies to hypercubes of any length <em>h<sub>n</sub></em> that are centered at <strong><em>x</em></strong>: </p> <div> <div class=MathJax_Preview> k_n = \sum\limits_{i=1}^{n} \phi \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)\\\\ </div> <script type="math/tex; mode=display">
 k_n = \sum\limits_{i=1}^{n} \phi \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)\\\\
 </script> </div> <div class=highlight><pre><span></span><code>k_n = \sum\limits_{i=1}^{n} \phi \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)\\\\
 </code></pre></div> <p>where:</p> <div> <div class=MathJax_Preview> \pmb u = \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg) </div> <script type="math/tex; mode=display">
     \pmb u = \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb u = \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)
+</script> </div> <div class=highlight><pre><span></span><code>\pmb u = \bigg( \frac{\pmb x - \pmb x_i}{h_n} \bigg)
 </code></pre></div> <ul> <li>probability density estimation with hypercube kernel</li> </ul> <div> <div class=MathJax_Preview> p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg] </div> <script type="math/tex; mode=display">
     p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg]
-</script> </div> <div class=highlight><pre><span></span><code>    p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg]
+</script> </div> <div class=highlight><pre><span></span><code>p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg]
 </code></pre></div> <p>where:</p> <div> <div class=MathJax_Preview> h^d = V_n\quad \text{and} \quad\phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg] = k </div> <script type="math/tex; mode=display">
     h^d = V_n\quad   \text{and}    \quad\phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg] = k
-</script> </div> <div class=highlight><pre><span></span><code>    h^d = V_n\quad   \text{and}    \quad\phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg] = k
+</script> </div> <div class=highlight><pre><span></span><code>h^d = V_n\quad   \text{and}    \quad\phi \bigg[ \frac{\pmb x - \pmb x_i}{h_n} \bigg] = k
 </code></pre></div> <ul> <li>probability density estimation with Gaussian kernel</li> </ul> <div> <div class=MathJax_Preview> p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \Bigg[ \frac{1}{(\sqrt {2 \pi})^d h_{n}^{d}} \exp \; \bigg[ -\frac{1}{2} \bigg(\frac{\pmb x - \pmb x_i}{h_n} \bigg)^2 \bigg] \Bigg] </div> <script type="math/tex; mode=display">
     p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \Bigg[ \frac{1}{(\sqrt {2 \pi})^d h_{n}^{d}} \exp \; \bigg[ -\frac{1}{2} \bigg(\frac{\pmb x - \pmb x_i}{h_n} \bigg)^2 \bigg] \Bigg]
-</script> </div> <div class=highlight><pre><span></span><code>    p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \Bigg[ \frac{1}{(\sqrt {2 \pi})^d h_{n}^{d}} \exp \; \bigg[ -\frac{1}{2} \bigg(\frac{\pmb x - \pmb x_i}{h_n} \bigg)^2 \bigg] \Bigg]
+</script> </div> <div class=highlight><pre><span></span><code>p_n(\pmb x) = \frac{1}{n} \sum\limits_{i=1}^{n} \frac{1}{h^d} \phi \Bigg[ \frac{1}{(\sqrt {2 \pi})^d h_{n}^{d}} \exp \; \bigg[ -\frac{1}{2} \bigg(\frac{\pmb x - \pmb x_i}{h_n} \bigg)^2 \bigg] \Bigg]
 </code></pre></div> <hr> <h3 id=population-mean>Population mean<a class=headerlink href=#population-mean title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> \mu = \frac{1}{N} \sum_{i=1}^N x_i </div> <script type="math/tex; mode=display">
     \mu = \frac{1}{N} \sum_{i=1}^N x_i
-</script> </div> <div class=highlight><pre><span></span><code>    \mu = \frac{1}{N} \sum_{i=1}^N x_i
+</script> </div> <div class=highlight><pre><span></span><code>\mu = \frac{1}{N} \sum_{i=1}^N x_i
 </code></pre></div> <p>example mean vector:</p> <div> <div class=MathJax_Preview> \pmb{\mu_1} = \begin{bmatrix}0\\0\\0\end{bmatrix} </div> <script type="math/tex; mode=display">
     \pmb{\mu_1} = 
     \begin{bmatrix}0\\0\\0\end{bmatrix}
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb{\mu_1} = 
-    \begin{bmatrix}0\\0\\0\end{bmatrix}
+</script> </div> <div class=highlight><pre><span></span><code>\pmb{\mu_1} = 
+\begin{bmatrix}0\\0\\0\end{bmatrix}
 </code></pre></div> <hr> <h3 id=poisson-distribution-univariate>Poisson distribution (univariate)<a class=headerlink href=#poisson-distribution-univariate title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>Probability density function</li> </ul> <div> <div class=MathJax_Preview> p(x|\theta) = \frac{e^{-\theta}\theta^{xk}}{x_k!} </div> <script type="math/tex; mode=display">
     p(x|\theta) = \frac{e^{-\theta}\theta^{xk}}{x_k!}
-</script> </div> <div class=highlight><pre><span></span><code>    p(x|\theta) = \frac{e^{-\theta}\theta^{xk}}{x_k!}
+</script> </div> <div class=highlight><pre><span></span><code>p(x|\theta) = \frac{e^{-\theta}\theta^{xk}}{x_k!}
 </code></pre></div> <hr> <h3 id=principal-component-analysis>Principal Component Analysis<a class=headerlink href=#principal-component-analysis title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>Scatter matrix</li> </ul> <div> <div class=MathJax_Preview> S = \sum\limits_{k=1}^n (\pmb x_k - \pmb m)\;(\pmb x_k - \pmb m)^T </div> <script type="math/tex; mode=display">
     S = \sum\limits_{k=1}^n (\pmb x_k - \pmb m)\;(\pmb x_k - \pmb m)^T
-</script> </div> <div class=highlight><pre><span></span><code>    S = \sum\limits_{k=1}^n (\pmb x_k - \pmb m)\;(\pmb x_k - \pmb m)^T
+</script> </div> <div class=highlight><pre><span></span><code>S = \sum\limits_{k=1}^n (\pmb x_k - \pmb m)\;(\pmb x_k - \pmb m)^T
 </code></pre></div> <p>where:</p> <div> <div class=MathJax_Preview> \pmb m = \frac{1}{n} \sum\limits_{k=1}^n \; \pmb x_k \text{ (mean vector)} </div> <script type="math/tex; mode=display">
     \pmb m = \frac{1}{n} \sum\limits_{k=1}^n \; \pmb x_k \text{   (mean vector)}
-</script> </div> <div class=highlight><pre><span></span><code>    \pmb m = \frac{1}{n} \sum\limits_{k=1}^n \; \pmb x_k \text{   (mean vector)}
+</script> </div> <div class=highlight><pre><span></span><code>\pmb m = \frac{1}{n} \sum\limits_{k=1}^n \; \pmb x_k \text{   (mean vector)}
 </code></pre></div> <hr> <h3 id=r-factor>R-factor<a class=headerlink href=#r-factor title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <p>The R-factor is one of several measures to assess the quality of a protein crystal structure. After building and refining an atomistic model of the crystal structure, the R-factor measures how well this model can describe the experimental diffraction patterns via the equation:</p> <div> <div class=MathJax_Preview> R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|} </div> <script type="math/tex; mode=display">
     R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|}
-</script> </div> <div class=highlight><pre><span></span><code>    R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|}
+</script> </div> <div class=highlight><pre><span></span><code>R = \frac{\sum ||F_{obs}| - |F_{calc}||}{\sum|F_{obs}|}
 </code></pre></div> <hr> <h3 id=rayleigh-distribution-univariate>Rayleigh distribution (univariate)<a class=headerlink href=#rayleigh-distribution-univariate title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <ul> <li>Probability density function</li> </ul> <div> <div class=MathJax_Preview> p(x|\theta) = \Bigg\{ \begin{array}{c} 2\theta xe^{- \theta x^2},\quad \quad x \geq0, \\ 0,\quad \text{otherwise.} \\ \end{array} </div> <script type="math/tex; mode=display">
     p(x|\theta) =  \Bigg\{ \begin{array}{c}
       2\theta xe^{- \theta x^2},\quad \quad x \geq0, \\
       0,\quad \text{otherwise.} \\
       \end{array}
-</script> </div> <div class=highlight><pre><span></span><code>    p(x|\theta) =  \Bigg\{ \begin{array}{c}
-      2\theta xe^{- \theta x^2},\quad \quad x \geq0, \\
-      0,\quad \text{otherwise.} \\
-      \end{array}
+</script> </div> <div class=highlight><pre><span></span><code>p(x|\theta) =  \Bigg\{ \begin{array}{c}
+2\theta xe^{- \theta x^2},\quad \quad x \geq0, \\
+0,\quad \text{otherwise.} \\
+\end{array}
 </code></pre></div> <hr> <h3 id=standard-deviation>Standard deviation<a class=headerlink href=#standard-deviation title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2} </div> <script type="math/tex; mode=display">
     \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2}
-</script> </div> <div class=highlight><pre><span></span><code>    \sigma = \sqrt{\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2}
+</script> </div> <div class=highlight><pre><span></span><code>\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^N (x_i - \mu)^2}
 </code></pre></div> <hr> <h3 id=variance>Variance<a class=headerlink href=#variance title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad </div> <script type="math/tex; mode=display">
     \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad
-</script> </div> <div class=highlight><pre><span></span><code>    \sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad
+</script> </div> <div class=highlight><pre><span></span><code>\sigma{_x}^{2} = \sum_{i=1}^{n} (x_i - \bar{x})^2\quad
 </code></pre></div> <hr> <h3 id=z-score>Z-score<a class=headerlink href=#z-score title="Permanent link">&para;</a></h3> <p>[<a href=#table-of-contents>back to top</a>]</p> <div> <div class=MathJax_Preview> z = \frac{x - \mu}{\sigma} </div> <script type="math/tex; mode=display">
     z = \frac{x - \mu}{\sigma}
-</script> </div> <div class=highlight><pre><span></span><code>    z = \frac{x - \mu}{\sigma}
+</script> </div> <div class=highlight><pre><span></span><code>z = \frac{x - \mu}{\sigma}
 </code></pre></div> <hr> </article> </div> </div> </main> <footer class=md-footer> <div class=md-footer-nav> <nav class="md-footer-nav__inner md-grid" aria-label=Footer> <a href=../../courses/data-journey/ title="Data Journey" class="md-footer-nav__link md-footer-nav__link--prev" rel=prev> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg> </div> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Previous </span> Data Journey </div> </div> </a> <a href=../glossary/ title=Glossary class="md-footer-nav__link md-footer-nav__link--next" rel=next> <div class=md-footer-nav__title> <div class=md-ellipsis> <span class=md-footer-nav__direction> Next </span> Glossary </div> </div> <div class="md-footer-nav__button md-icon"> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg> </div> </a> </nav> </div> <div class="md-footer-meta md-typeset"> <div class="md-footer-meta__inner md-grid"> <div class=md-footer-copyright> <div class=md-footer-copyright__highlight> Copyright &copy;2020 Braskem </div> made by <a href=https://www.linkedin.com/in/ericson-mattoso/ target=_blank rel=noopener>Ericson Mattoso</a> </div> <div class=md-footer-social> <a href=https://www.braskem.com.br/ target=_blank rel=noopener title=www.braskem.com.br class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 496 512"><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg> </a> <a href=https://www.braskem.com.br/ target=_blank rel=noopener title=www.braskem.com.br class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 640 512"><path d="M349.9 236.3h-66.1v-59.4h66.1v59.4zm0-204.3h-66.1v60.7h66.1V32zm78.2 144.8H362v59.4h66.1v-59.4zm-156.3-72.1h-66.1v60.1h66.1v-60.1zm78.1 0h-66.1v60.1h66.1v-60.1zm276.8 100c-14.4-9.7-47.6-13.2-73.1-8.4-3.3-24-16.7-44.9-41.1-63.7l-14-9.3-9.3 14c-18.4 27.8-23.4 73.6-3.7 103.8-8.7 4.7-25.8 11.1-48.4 10.7H2.4c-8.7 50.8 5.8 116.8 44 162.1 37.1 43.9 92.7 66.2 165.4 66.2 157.4 0 273.9-72.5 328.4-204.2 21.4.4 67.6.1 91.3-45.2 1.5-2.5 6.6-13.2 8.5-17.1l-13.3-8.9zm-511.1-27.9h-66v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm78.1 0h-66.1v59.4h66.1v-59.4zm-78.1-72.1h-66.1v60.1h66.1v-60.1z"/></svg> </a> <a href=https://www.braskem.com.br/ target=_blank rel=noopener title=www.braskem.com.br class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 512 512"><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg> </a> <a href=https://www.braskem.com.br/ target=_blank rel=noopener title=www.braskem.com.br class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg> </a> <a href=https://www.braskem.com.br/ target=_blank rel=noopener title=www.braskem.com.br class=md-footer-social__link> <svg xmlns=http://www.w3.org/2000/svg viewbox="0 0 448 512"><path d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z"/></svg> </a> </div> </div> </div> </footer> </div> <script src=../../assets/javascripts/vendor.8caa27b7.min.js></script> <script src=../../assets/javascripts/bundle.193efd2f.min.js></script><script id=__lang type=application/json>{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script> <script>
         app = initialize({
           base: "../..",
