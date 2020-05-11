@@ -1,0 +1,5 @@
+### The following are the deliverables in this stage:
+
+- Data quality report: This report includes data summaries, the relationships between each attribute and target, variable ranking, and more. The IDEAR tool provided as part of TDSP can quickly generate this report on any tabular data set, such as a CSV file or a relational table.
+- Solution architecture: The solution architecture can be a diagram or description of your data pipeline that you use to run scoring or predictions on new data after you have built a model. It also contains the pipeline to retrain your model based on new data. Store the document in the Project directory when you use the TDSP directory structure template.
+- Checkpoint decision: Before you begin full-feature engineering and model building, you can reevaluate the project to determine whether the value expected is sufficient to continue pursuing it. You might, for example, be ready to proceed, need to collect more data, or abandon the project as the data does not exist to answer the question.
